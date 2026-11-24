@@ -1,0 +1,12 @@
+
+[env:esp32cam]
+platform = espressif32
+board = esp32cam
+framework = arduino
+
+monitor_speed = 115200
+upload_speed = 115200
+monitor_filters = direct
+
+monitor_dtr = 0
+monitor_rts = 0
